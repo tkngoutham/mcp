@@ -1,0 +1,41 @@
+[project]
+name = "dlai"
+version = "0.1.0"
+description = "Deep Learning AI Tutorial Project"
+authors = [
+    {name = "DLAI Team"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "anthropic>=0.51.0",
+    "arxiv>=2.2.0",
+    "mcp>=1.7.1",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.0",
+    "uv"
+]
+
+
+[tool.poetry]
+name = "dlai"
+version = "0.1.0"
+description = "Deep Learning AI Tutorial Project"
+authors = ["DLAI Team"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+anthropic = "^0.51.0"
+arxiv = "^2.2.0"
+mcp = "^1.7.1"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.1.0"
+uv = "*"
+jupyter = "*"
+ipykernel = "*"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
